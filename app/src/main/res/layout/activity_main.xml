@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
-    app:layoutDescription="@xml/scene_second"
+    android:background="@color/gray"
+    app:layoutDescription="@xml/scene"
     app:showPaths="false">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -39,10 +39,10 @@
         android:id="@+id/toolbar_image"
         android:layout_width="match_parent"
         android:layout_height="290dp"
-        android:background="@color/black"
+        android:background="@color/gray"
         android:contentDescription="@null"
         android:scaleType="centerCrop"
-        android:src="@drawable/background_photo_second"
+        android:src="@drawable/dark_knight"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -79,13 +79,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/resumeButton"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/yellow"
+        android:backgroundTint="#f57f17"
         android:text="Resume"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="14sp" />
 
     <TextView
